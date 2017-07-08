@@ -47,6 +47,10 @@
 
 #include "pins_RAMPS.h"
 
+// TODO: we switch the temp sensor pins (there seems to be some defect on the board)
+#define TEMP_0_PIN         14   // Analog Input
+#define TEMP_BED_PIN       13   // Analog Input
+
 //
 // Limit Switches
 //
